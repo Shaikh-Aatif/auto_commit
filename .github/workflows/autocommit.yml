@@ -1,13 +1,9 @@
 name: Auto commit
 
 on:
-
-  push:
-    branches:
-      - master
-      
+     
   schedule:
-  - cron: "* * * * *" # See https://crontab.guru/#* * * * * Every Minute
+  - cron: "1 * * * *" # See https://crontab.guru/#1 * * * * Every New Hour One Minute
 
 jobs:
   auto_commit:
