@@ -4,7 +4,7 @@ on:
 
   push:
     branches:
-      - main
+      - master
       
   schedule:
   - cron: "* * * * *" # See https://crontab.guru/#* * * * * Every Minute
