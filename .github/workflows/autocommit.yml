@@ -3,7 +3,7 @@ name: Auto commit
 on:
      
   schedule:
-  - cron: "1 * * * *" # See https://crontab.guru/#1 * * * * Every New Hour One Minute
+  - cron: "*/15 * * * *" # See https://crontab.guru/#1 * * * * Every New Hour One Minute
 
 jobs:
   auto_commit:
